@@ -1,0 +1,50 @@
+h1 {
+     font-family: 'Baumans', cursive;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+.nav-bar {
+    background-color: #b9deff
+}
+.logo {
+    width: 100px;
+}
+#root .blog-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem; 
+    padding: 2em; 
+}
+
+#root .blog-list div{
+    color: red;
+    background-color: #ffdab9;
+    border-radius: 2px;
+    padding: 2em;
+}
+
+.nav-bar {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.menu-links {
+  justify-self: end;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+footer {
+    height: 20vh;
+    background-color: #ffb9bb;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+

@@ -1,0 +1,59 @@
+{
+    "tweets": [
+        {
+        "created_at": "Thu Apr 06 15:24:15 +0000 2017",
+        "id": 1,
+        "text": "Hey sup this is a test1",
+        "user": {
+            "id": 43535,
+            "name": "James",
+            "screen_name": "jacob126",
+            "location": "Atlanta",
+            "url": "https:\/\/dev.twitter.com\/",
+            "description": "This is a user description"
+            }
+        },
+        {
+        "created_at": "Thu Apr 06 15:24:15 +0000 2017",
+        "id": 2,
+        "text": "Hey sup this is a test2",
+        "user": {
+            "id": 43783,
+            "name": "John",
+            "screen_name": "rabbitcat",
+            "location": "Atlanta",
+            "url": "https:\/\/dev.twitter.com\/",
+            "description": "This is a user description"
+            }
+        },
+        {
+        "created_at": "Thu Apr 06 15:24:15 +0000 2017",
+        "id": 3,
+        "text": "Hey sup this is a test3",
+        "user": {
+            "id": 43797,
+            "name": "Rebecca",
+            "screen_name": "rebecca353",
+            "location": "Atlanta",
+            "url": "https:\/\/dev.twitter.com\/",
+            "description": "This is a user description"
+        }
+        },
+        {
+            "created_at": "Thu Apr 06 15:24:15 +0000 2017",
+            "id": 4,
+            "text": "Hey sup this is a test4",
+            "user": {
+                "id": 43797,
+                "name": "Rebecca",
+                "screen_name": "rebecca353",
+                "location": "Atlanta",
+                "url": "https:\/\/dev.twitter.com\/",
+                "description": "This is a user description"
+            }
+        }
+
+    ]
+}
+
+
