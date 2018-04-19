@@ -4,37 +4,32 @@ import {
     HashRouter,
     Route,
     Link,
+    Switch
 } from 'react-router-dom';
 import './App.css';
 import Header from './Header';
 import Homepage from './Homepage';
-import About from './About';
+import GroupFeed from './GroupFeed';
+import UserFeed from './UserFeed';
 import Profile from './Profile';
 
 
 class Router extends Component {
     constructor(props) {
         super(props);
-        this.state = { blogBeingEdited: null, tweets: [] };
-    }
-    componentDidMount() {
-        this.fetchData();
-    }
-    async fetchData() {
-        let tweets = await (await fetch('http://localhost:3000/tweets')).json();
-        this.setState({ tweets })
     }
 
 render() {
-    let { tweets, blogBeingEdited } = this.state;
     return (
         <HashRouter>
             <div>
                 <Header />
-                <Route path="/" exact render={() => <Homepage tweets={tweets} />} />
-                <Route path="/tweets" render={() => <About tweets={tweets} />} />
-                <Route path="/users/:username" render={({match}) => <Profile tweets={tweets} match={match} />} />
-                
+                <Switch>
+                <Route path="/" exact render={() => <Homepage  />} />
+                <Route path="/users/tweets" render={() => <GroupFeed  />} />
+                <Route path="/users/:username" exact render={({ match }) => <Profile match={match} />} />
+                <Route path="/users/:username/tweets" render={({match}) => <UserFeed match={match} />} />
+                </Switch>
             </div>
         </HashRouter>
     );

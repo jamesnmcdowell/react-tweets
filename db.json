@@ -1,59 +1,64 @@
 {
     "tweets": [
         {
-        "created_at": "Thu Apr 06 15:24:15 +0000 2017",
-        "id": 1,
-        "text": "Hey sup this is a test1",
-        "user": {
-            "id": 43535,
-            "name": "James",
-            "screen_name": "jacob126",
-            "location": "Atlanta",
-            "url": "https:\/\/dev.twitter.com\/",
-            "description": "This is a user description"
-            }
-        },
-        {
-        "created_at": "Thu Apr 06 15:24:15 +0000 2017",
-        "id": 2,
-        "text": "Hey sup this is a test2",
-        "user": {
-            "id": 43783,
-            "name": "John",
-            "screen_name": "rabbitcat",
-            "location": "Atlanta",
-            "url": "https:\/\/dev.twitter.com\/",
-            "description": "This is a user description"
-            }
-        },
-        {
-        "created_at": "Thu Apr 06 15:24:15 +0000 2017",
-        "id": 3,
-        "text": "Hey sup this is a test3",
-        "user": {
-            "id": 43797,
-            "name": "Rebecca",
-            "screen_name": "rebecca353",
-            "location": "Atlanta",
-            "url": "https:\/\/dev.twitter.com\/",
-            "description": "This is a user description"
-        }
-        },
-        {
+            "tweetId": 1,
+            "userId": 1,
             "created_at": "Thu Apr 06 15:24:15 +0000 2017",
-            "id": 4,
-            "text": "Hey sup this is a test4",
-            "user": {
-                "id": 43797,
-                "name": "Rebecca",
-                "screen_name": "rebecca353",
-                "location": "Atlanta",
-                "url": "https:\/\/dev.twitter.com\/",
-                "description": "This is a user description"
-            }
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Nulla ac lorem eget ligula porta ornare ac non dui. Nulla bibendum nunc vitae justo porta accumsan. "
+        },
+        {
+            "tweetId": 2,
+            "userId": 1,
+            "created_at": "Thu Apr 06 15:24:15 +0000 2017",
+            "text": "Hey sup this is a test2"
+        },
+        {
+            "tweetId": 3,
+            "userId": 2,
+            "created_at": "Thu Apr 06 15:24:15 +0000 2017",
+            "text": "Hey sup this is a test3"
+        },
+        {
+            "tweetId": 4,
+            "userId": 3,
+            "created_at": "Thu Apr 06 15:24:15 +0000 2017",
+            "text": "Hey sup this is a test4"
+          
+        }
+
+    ],
+    "users": [
+        {
+            "userId": 1,
+            "name": "james",
+            "screen_name": "jamer132",
+            "location": "Atlanta",
+            "url": "https:\/\/dev.twitter.com\/",
+            "description": "This is a user description",
+            "avatar": "https://avatars2.githubusercontent.com/u/19500679?s=460&v=4"
+        },
+        {
+            "userId": 2,
+            "name": "john",
+            "screen_name": "rabbitcat",
+            "location": "New York",
+            "url": "https:\/\/dev.twitter.com\/",
+            "description": "This is a user description",
+            "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Rabbit_in_montana.jpg/500px-Rabbit_in_montana.jpg"
+        },
+        {
+            "userId": 3,
+            "name": "rebecca",
+            "screen_name": "rebecca353",
+            "location": "San Francisco",
+            "url": "https:\/\/dev.twitter.com\/",
+            "description": "This is a user description",
+            "avatar": "https://static1.squarespace.com/static/54e8ba93e4b07c3f655b452e/t/56c2a04520c64707756f4267/1493764650017/?format=500w"
         }
 
     ]
+
 }
 
 
