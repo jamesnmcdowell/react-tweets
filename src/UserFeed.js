@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import TweetList from './TweetList';
+import EnhancedForm, { TweetForm } from './TweetForm'
 
 class UserFeed extends Component {
     constructor(props) {
@@ -37,6 +38,13 @@ class UserFeed extends Component {
         return (
             <div>
                 <TweetList tweets={tweets} />
+                <EnhancedForm
+                    tweets={tweets}
+                    initialState={{
+                        text: '',
+                        url: ''
+                    }}
+                />
             </div>
         );
     }
