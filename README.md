@@ -1,6 +1,6 @@
 # React tweets
 
-> React tweets is a twitter-inspired front-end JavaScript web app built with react, redux, and css grid/flexbox.
+> React tweets is a twitter-inspired react app built with react, redux, and css grid/flexbox.
 
 ![react-tweets](https://user-images.githubusercontent.com/19500679/39283497-8c7fc9ac-48dc-11e8-80c0-21a95566781d.jpg)
 
